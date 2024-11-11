@@ -4,12 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-anyhow = "1.0.89"
-futures = "0.3.30"
+anyhow = "1.0"
 eventsource-stream = "0.2.3"
-http-client = { git = "https://github.com/fdionisi/http-client", rev = "033ac96ab12ac3d13b78f9725b237380917c7094" }
-pin-project-lite = "0.2.14"
-futures-util = "0.3.30"
-bytes = "1.7.2"
-futures-timer = "3.0.3"
+futures = "0.3"
+futures-timer = "3.0"
+http-client = { git = "https://github.com/fdionisi/http-client", rev = "c4a778815ecb94411f7db6385052655b181a9676" }
 mime = "0.3.17"
+pin-project-lite = "0.2.14"

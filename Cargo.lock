@@ -146,7 +146,7 @@ dependencies = [
 [[package]]
 name = "http-client"
 version = "0.1.0"
-source = "git+https://github.com/fdionisi/http-client?rev=033ac96ab12ac3d13b78f9725b237380917c7094#033ac96ab12ac3d13b78f9725b237380917c7094"
+source = "git+https://github.com/fdionisi/http-client?rev=c4a778815ecb94411f7db6385052655b181a9676#c4a778815ecb94411f7db6385052655b181a9676"
 dependencies = [
  "anyhow",
  "futures",
@@ -161,11 +161,9 @@ name = "http-client-eventsource"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "bytes",
  "eventsource-stream",
  "futures",
  "futures-timer",
- "futures-util",
  "http-client",
  "mime",
  "pin-project-lite",

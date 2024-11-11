@@ -19,7 +19,8 @@ use http_client::{
     AsyncBody, HttpClient,
 };
 use pin_project_lite::pin_project;
-use retry_policy::{RetryPolicy, DEFAULT_RETRY};
+
+use crate::retry_policy::{RetryPolicy, DEFAULT_RETRY};
 
 /// Events created by the [`EventSource`]
 #[derive(Debug, Clone, Eq, PartialEq)]

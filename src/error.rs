@@ -1,10 +1,10 @@
-use core::fmt;
+use std::fmt::{self, Debug};
+
 use eventsource_stream::EventStreamError;
 use http_client::{
     http::{self, HeaderValue, Response, StatusCode},
     AsyncBody,
 };
-use std::fmt::Debug;
 
 /// Error raised when a [`RequestBuilder`] cannot be cloned. See [`RequestBuilder::try_clone`] for
 /// more information
